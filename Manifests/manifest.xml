@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>  
+<remote name="Google-Pixel-LineageOS"
+           fetch="https://github.com" />
+
+  <!-- Default Repos -->
+  <project name="Google-Pixel-LineageOS/android_device_google_sailfish" path="device/google/sailfish" revision="lineage-19.1" remote="Google-Pixel-LineageOS" />
+  <project name="Google-Pixel-LineageOS/android_device_google_marlin" path="device/google/marlin" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+  <project name="Google-Pixel-LineageOS/pixel_vendor" path="vendor/google" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+  <project name="Google-Pixel-LineageOS/android_kernel_google_marlin" path="kernel/google/marlin" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+
+  <!-- CAF Repos-->
+  <project name="Google-Pixel-LineageOS/android_hardware_qcom_caf_msm8996_display" path="hardware/qcom-caf/msm8996/display" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+  <project name="Google-Pixel-LineageOS/android_hardware_qcom_caf_msm8996_audio" path="hardware/qcom-caf/msm8996/audio" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+  <project name="Google-Pixel-LineageOS/android_hardware_qcom_caf_msm8996_media" path="hardware/qcom-caf/msm8996/media" revision="lineage-19.1" remote="Google-Pixel-LineageOS"/>
+
+</manifest>
